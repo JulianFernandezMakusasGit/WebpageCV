@@ -1,1 +1,16 @@
-<p>aprendizaje works!</p>
+<div class="claseMadre">
+    <app-topbar></app-topbar>
+    <h1> Blog </h1>
+    @for (publicacion of publicaciones; track $index) {
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title-group>
+                    <mat-card-title>{{publicacion.nombre}}</mat-card-title>
+                </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                {{publicacion.resumen}}
+            </mat-card-content>
+        </mat-card>
+    }
+</div>

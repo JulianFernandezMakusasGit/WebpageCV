@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { TopbarComponent } from '../topbar/topbar.component';
 
 @Component({
   selector: 'app-cv-pdf',
   standalone: true,
-  imports: [],
+  imports: [TopbarComponent],
   templateUrl: './cv-pdf.component.html',
   styleUrl: './cv-pdf.component.css'
 })
