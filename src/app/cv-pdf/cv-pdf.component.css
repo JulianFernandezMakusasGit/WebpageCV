@@ -1,0 +1,54 @@
+.divMadre {
+    background-color: beige;
+    display: grid;
+    gap: 1vh;
+}
+
+.imgCv {
+    max-width: 95%;
+    max-height: 90vh;
+    margin: auto;
+    background-color: beige;
+}
+
+@media (min-width: 320px) {
+    .descargar {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2vh;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 800px) {
+    .descargar {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 2vh;
+        margin: auto;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 1365px) {
+    .descargar {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3vh;
+        margin: auto;
+        background-color: transparent;
+        border: 5px solid white;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .descargar:hover {
+        background-color: burlywood;
+        transition: 0.5s;
+        transform-origin: left;
+    }
+}

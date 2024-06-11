@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { BarraComponent } from './barra/barra.component';
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
+import { TopbarComponent } from '../topbar/topbar.component';
 
 @Component({
   selector: 'app-inicio',
   standalone: true,
-  imports: [BarraComponent, SobreMiComponent],
+  imports: [SobreMiComponent, TopbarComponent],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
 })

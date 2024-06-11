@@ -9,5 +9,6 @@ import { TopbarComponent } from '../topbar/topbar.component';
   styleUrl: './cv-pdf.component.css'
 })
 export class CvPdfComponent {
-
+  pdfSrc = "../../assets/CurriculumVitae.pdf";
+  imgCv = "../../assets/CurriculumVitae.jpg";
 }
